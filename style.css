@@ -1,0 +1,91 @@
+/*
+Theme Name: belajar wordpress
+Theme URI: http://belajar.com
+Author: risman
+Author URI: http://risman.890m.com
+Description: sedang perdalam wordpress lagi 
+*/
+
+body {
+	width: 100%;
+	margin: 0;
+	margin-right: 0;
+
+}
+
+.sub_judul {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.search {
+	color: green;
+}
+
+#search {
+	width: 500px;
+	border-radius: 5px;
+}
+
+#search_submit {
+	width: 50px;
+	border-radius: 5px;
+}
+
+header {
+	background: black;
+	color: white;
+}
+
+ul {
+    margin-bottom: 0px !important;
+    padding-left: 0px;
+    font-size: 15px;
+}
+
+nav ul li a {
+    color: #8BC34A !important;
+    text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+
+nav li {
+	display: inline-block;
+	margin-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.test {
+	color: white;
+}
+
+footer {
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+.c-post {
+	padding-top: 20px;
+}
+
+#wp-calendar caption {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #8bc34a !important;
+    text-align: left;
+}
+
+
+
+@media screen and (max-width: 600px) 
+{
+	#wpadminbar {
+	    min-width: 250px !important;
+	}
+}
